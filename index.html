@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div style="text-align: center;">
+            <h3>Conway's Game of Life in JS with HTML Canvas</h3>
+        </div>
+
+        <div id="canvas_container" style="text-align: center;">
+            <canvas id="mainCanvas" width="600" height="600" style="display:inline; border:1px solid #000000;"></canvas>
+        </div>
+
+        <div id="interactions" style="text-align: center;">
+            <button id="start_button" onclick="start()" style="display:inline">Start</button>
+            <button id="gen_button" onclick="regenerate()" style="display:inline">Regenerate</button>
+            <button id="stop_button" onclick="stop()" style="display:inline">Stop</button>
+        </div>
+    </body>
+
+    <script src="app.js"></script>
+</html>
