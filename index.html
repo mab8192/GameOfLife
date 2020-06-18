@@ -6,13 +6,19 @@
         </div>
 
         <div id="canvas_container" style="text-align: center;">
-            <canvas id="mainCanvas" width="600" height="600" style="display:inline; border:1px solid #000000;"></canvas>
+            <canvas id="mainCanvas" width="750" height="750" style="display:inline; border:1px solid #000000;"></canvas>
         </div>
 
-        <div id="interactions" style="text-align: center;">
+        <div id="buttons" style="text-align: center;">
             <button id="start_button" onclick="start()" style="display:inline">Start</button>
             <button id="gen_button" onclick="regenerate()" style="display:inline">Regenerate</button>
+            <button id="clear_button" onclick="clear_board()" style="display:inline">Clear</button>
             <button id="stop_button" onclick="stop()" style="display:inline">Stop</button>
+        </div>
+
+        <div id="input" style="text-align: center; margin-top:10px;">
+            <p style="display:inline;">Time delay between frames (ms) (default 100):</p>
+            <input id="delayBox" type="number" value="100" min="1" style="display:inline; text-align: center;">
         </div>
     </body>
 
