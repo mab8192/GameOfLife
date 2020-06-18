@@ -1,6 +1,6 @@
 # GameOfLife
 
-An implementation of Conway's Game of Life in JavaScript within an HTML Canvas element. This serves as a demonstration of one way Cellular Automata can be implemented with raw JavaScript and HTML.
+An implementation of Conway's Game of Life in JavaScript within an HTML Canvas element. This serves as a demonstration of one way Cellular Automata can be implemented with raw JavaScript and HTML. You can see and interact with the demo here: www.mab8192.github.io/GameOfLife
 
 #### Working
 
